@@ -43,6 +43,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String name = request.getParameter("name");
 		String password = request.getParameter("password");
+		request.setAttribute("error", "Invalid user or password");
 		if(userService.isValid(name, password))
 		{
 		request.setAttribute("name", name);
