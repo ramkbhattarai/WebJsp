@@ -1,5 +1,8 @@
 package com.rkb.springmvc;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class LoginService {
 	
 	public boolean isValid(String name, String password) {
