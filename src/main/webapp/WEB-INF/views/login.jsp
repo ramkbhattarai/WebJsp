@@ -9,7 +9,7 @@
 <body>
 	hi from jsp
 	<div>${error}</div>
-	<form action="/login.do" method="post">
+	<form action="/spring-mvc/login" method="post">
 	Enter the name <input type="text" name="name"><br>
 	Enter the password <input type="password" name="password"><br>
 	<button>Submit</button>
