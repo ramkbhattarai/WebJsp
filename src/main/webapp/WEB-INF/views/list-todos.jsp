@@ -9,5 +9,6 @@
 Hi ${name}
 <H3>Your Todos</H3>
  ${todos}
+  <a class="button" href="/add-todo">Add</a>
 </body>
 </html>
