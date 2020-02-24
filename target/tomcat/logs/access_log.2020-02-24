@@ -6,3 +6,13 @@
 0:0:0:0:0:0:0:1 - - [24/Feb/2020:07:00:21 -0500] "POST /spring-mvc/login HTTP/1.1" 200 365 http-bio-8080-exec-10 30
 0:0:0:0:0:0:0:1 - - [24/Feb/2020:07:00:34 -0500] "POST /spring-mvc/login HTTP/1.1" 200 154 http-bio-8080-exec-10 6
 0:0:0:0:0:0:0:1 - - [24/Feb/2020:07:57:03 -0500] "GET /spring-mvc/list-todos HTTP/1.1" 200 359 http-bio-8080-exec-2 111
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:11:22 -0500] "GET /login HTTP/1.1" 404 961 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:11:44 -0500] "GET /login HTTP/1.1" 404 961 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:12:23 -0500] "GET /login HTTP/1.1" 200 333 http-bio-8080-exec-1 138
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:12:32 -0500] "POST /spring-mvc/login HTTP/1.1" 404 949 http-bio-8080-exec-3 18
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:13:41 -0500] "POST /spring-mvc/login HTTP/1.1" 404 949 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:13:54 -0500] "GET / HTTP/1.1" 404 949 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:13:58 -0500] "GET / HTTP/1.1" 404 949 http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:14:04 -0500] "GET /login HTTP/1.1" 200 322 http-bio-8080-exec-9 723
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:14:12 -0500] "POST /login HTTP/1.1" 200 215 http-bio-8080-exec-10 101
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:08:14:16 -0500] "GET /list-todos HTTP/1.1" 200 363 http-bio-8080-exec-10 54

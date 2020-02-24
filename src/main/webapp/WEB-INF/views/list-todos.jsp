@@ -3,10 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Todos for ${name}</title>
+<title>Todos</title>
 </head>
 <body>
-<H1>Your Todos</H1>
+Hi ${name}
+<H3>Your Todos</H3>
  ${todos}
 </body>
 </html>

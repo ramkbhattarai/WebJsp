@@ -7,7 +7,7 @@
 <title>From Jsp</title>
 </head>
 <body>
-welcome from jsp to ${name} with password ${password}
-	
+welcome from jsp to ${name}
+	Now you can <a href="/list-todos">manage your todos here </a>
 </body>
 </html>
