@@ -2,10 +2,14 @@ package com.rkb.model;
 
 import java.time.LocalDate;
 
+import javax.validation.constraints.Size;
+
 public class Todo {
 	
 	private int id;
 	private String user;
+	
+	@Size(min=6, message="Enter at least six characters.")
 	private String desc;
 	private boolean isDone;
 	private LocalDate date;
